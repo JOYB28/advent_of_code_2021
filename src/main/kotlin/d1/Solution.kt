@@ -16,6 +16,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
             ans += 1
         }
         prev = cur
+        println(ans)
     }
-    println(ans)
+    println("end!")
 }
